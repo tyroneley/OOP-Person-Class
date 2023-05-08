@@ -32,7 +32,7 @@ public class Student extends Person {
         for (int g:grades) {
             sum += g;
         }
-        return (sum / grades.size());
+        return (sum / numCourses);
     }
 
     @Override
